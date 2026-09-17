@@ -17,8 +17,6 @@ export interface MenuProps {
 }
 
 export interface ToolbarActions {
-  /** About */
-  about: () => void;
   /** Add cursor above current position */
   addCursorAbove: () => void;
   /** Add cursor below current position */
