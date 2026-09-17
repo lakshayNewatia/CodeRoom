@@ -89,9 +89,7 @@ app.get("/", (res, req) => {
   }
   res.writeHeader("Content-Type", "text/plain");
 
-  res.end(
-    "Hello from codex-server! Go to https://codex.dulapahv.dev/ to start coding."
-  );
+  res.end("Hello from CodeRoom server!");
 });
 
 io.on("connection", (socket) => {
