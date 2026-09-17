@@ -77,7 +77,7 @@ app.listen(PORT, (token) => {
   if (!token) {
     console.warn(`Port ${PORT} is already in use`);
   }
-  console.log(`codex-server listening on port: ${PORT}`);
+  console.log(`Hello from CodeRoom Server! Listening on port ${PORT}`);
 });
 
 app.get("/", (res, req) => {

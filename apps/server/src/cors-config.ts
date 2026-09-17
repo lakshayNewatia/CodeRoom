@@ -6,8 +6,7 @@
  */
 
 const ALLOWED_ORIGINS = [
-  "https://codex.dulapahv.dev",
-  "https://dev-codex.dulapahv.dev",
+  "https://code-room-client.vercel.app",
   "http://localhost:3000",
 ] as const;
 
