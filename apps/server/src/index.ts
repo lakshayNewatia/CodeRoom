@@ -35,7 +35,7 @@ import * as webRTCService from "@/service/webrtc-service";
 
 import { ALLOWED_ORIGINS, getCorsHeaders } from "./cors-config";
 
-const PORT = 3001;
+const PORT = Number(process.env.PORT) || 3001;
 
 const app = App();
 
